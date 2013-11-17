@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/handshootset"
+android:title="@string/handrightset"
+/> 
+
+<item android:id="@+id/handcontrolmouse"
+android:title="鼠标控制模式"
+/>
+<item android:id="@+id/handcontrolkeyboard"
+android:title="键盘控制模式"
+/>
+ <item android:id="@+id/handhelp"
+android:title="@string/helpin"
+ />
+ 
+   <item android:id="@+id/reback"
+android:title="@string/reback"
+ />
+ 
+   <item android:id="@+id/exit"
+android:title="@string/exit"
+ />
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RemoteControlActivity!</string>
+    <string name="app_name">远程控制</string>
+	<string name="keyboard">键盘输入</string>
+	<string name="about">关于</string>
+	<string name="default_ip">192.168.1.198</string>
+	<string name="default_socket">8888</string>
+	<string name="sendbutton">发送</string>
+	<string name="ClearButton">退格</string>
+	<string name="enterbutton">回车</string>
+	<string name="dosButton">DOS发送</string>
+	<string name="iplabal">电脑IP：</string>
+	<string name="socketlabel">端口号：</string>
+	<string name="connectButton">手机连接电脑</string>
+	<string name="help">1.主页面上半部可控制鼠标移动  点击触摸板 可作为鼠标左击
+	    \n2.下方三个键 分别为 鼠标左键 滑轮 鼠标右键  
+	    \n3.主页面 手机音量键+调用键盘up 音量键-调用键盘down
+	    \n4.菜单键可进入键盘输入界面 在文本框数据数据 可点击下方 发送  
+	    \n5.键盘输入界面  对应电脑 回车 退格 以及DOS界面的发送 </string>
+	<string name="aboutlabel">前研工作室</string>
+	<string name="helptitle">使用说明</string>
+	<string name="exit">退出</string>
+	<string name="volumeadd">音量键+设置</string>
+	<string name="volumesub">音量键-设置</string>
+	<string name="helpin">帮助</string>
+	<string name="handmodel">手柄模式</string>
+	<string name="handrightset">右部功能设置</string>
+	<string name="confirm">确认</string>
+	<string name="cancel">取消</string>
+	<string name="exit_message">程序退出</string>
+	<string name="reback">返回</string>
+</resources>

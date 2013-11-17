@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bizhi"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/InputEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/SendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/InputEditText"
+        android:text="@string/sendbutton" />
+
+    <Button
+        android:id="@+id/EnterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SendButton"
+        android:layout_alignBottom="@+id/SendButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enterbutton" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EnterButton"
+        android:layout_alignBottom="@+id/EnterButton"
+        android:layout_alignParentRight="true"
+        android:text="@string/ClearButton" />
+
+    <Button
+        android:id="@+id/dosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnterButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/dosButton" />
+
+    <Button
+        android:id="@+id/UP"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/dosButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        
+        android:text="↑" />
+
+    <Button
+        android:id="@+id/DOWN"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/UP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="↓" />
+
+    <Button
+        android:id="@+id/LEFT"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignBottom="@+id/DOWN"
+        android:layout_alignParentLeft="true"
+        android:text="←" />
+
+    <Button
+        android:id="@+id/RIGHT"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignBottom="@+id/DOWN"
+        android:layout_alignParentRight="true"
+        android:text="→" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dosButton"
+        android:layout_marginTop="61dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/udlr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@color/black"
+            android:text="↑↓←→模式" />
+			
+        <RadioButton
+        android:id="@+id/wsad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="WSAD模式"
+        android:textColor="@color/black"
+         />
+    </RadioGroup>
+
+    
+
+</RelativeLayout>

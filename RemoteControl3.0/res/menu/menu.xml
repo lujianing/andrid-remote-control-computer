@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/valumnup"
+android:title="@string/volumeadd"
+/> 
+<item android:id="@+id/valumndown"
+android:title="@string/volumesub"
+/>
+<item android:id="@+id/keyboard"
+android:title="@string/keyboard"
+/>
+<item android:id="@+id/handmodel"
+android:title="@string/handmodel"
+/>
+
+ <item android:id="@+id/about"
+android:title="@string/about"
+ />
+ 
+ <item android:id="@+id/exit"
+android:title="@string/exit"
+ />
+</menu>
